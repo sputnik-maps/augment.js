@@ -106,7 +106,8 @@ if (!Array.prototype.findIndex) {
 		configurable: false,
 		writable: false
 	});
-}// https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/array/foreach
+}
+// https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/array/foreach
 if (!Array.prototype.forEach) {
   Array.prototype.forEach = function(fn, ctx) {
 
